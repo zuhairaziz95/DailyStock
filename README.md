@@ -8,3 +8,11 @@ The price of the stock can be obtain directly from Yahoo Finance from historical
 
 
 ![image](https://user-images.githubusercontent.com/65912073/145676150-344e6300-38e9-4e04-8808-df6e26a58b82.png)
+
+The automation was made using Excel VBA Macro which query data from Yahoo Finance and update it automatically
+with the stock name. The stock ticker column is case sensitive , the stock name must be the same from the Yahoo Finance
+website. Otherwise, it will prompt wiith no table query.
+
+For example Vanguard Berkshire Hathaway Inc. the shortform is (BRK-B) there should be dash in between. The code will look at the 
+stock ticker column and read the data. And update it accordingly. There is button added inside the worksheet so user can
+run it daily. 
