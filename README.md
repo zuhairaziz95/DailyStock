@@ -13,6 +13,8 @@ The automation was made using Excel VBA Macro which query data from Yahoo Financ
 with the stock name. The stock ticker column is case sensitive , the stock name must be the same from the Yahoo Finance
 website. Otherwise, it will prompt wiith no table query.
 
-For example Vanguard Berkshire Hathaway Inc. the shortform is (BRK-B) there should be dash in between. The code will look at the 
-stock ticker column and read the data. And update it accordingly. There is button added inside the worksheet so user can
+For example Vanguard Berkshire Hathaway Inc. the shortform is (BRK-B) there should be dash in between. The code is flexible and it
+will look at the stock ticker column and read the data and update it accordingly.More stock name can be added underneath the table. 
+
+There is button added inside the worksheet so user can
 run it daily. 
